@@ -1,0 +1,93 @@
+@media (max-width: 425px) {
+    /* Define estilos para elementos com a classe .statement */
+    .statement {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      grid-template-rows: repeat(5, 1fr);
+    }
+  
+    /* Aplica uma transformação para mover elementos com várias classes .statement-X horizontalmente em 30px */
+    .statement .statement-1,
+    .statement .statement-2,
+    .statement .statement-3,
+    .statement .statement-4,
+    .statement .statement-5 {
+      transform: translateX(30px);
+    }
+  
+    /* Define a largura de elementos com classes .statement-1 e .statement-3 como 365px */
+    .statement .statement-1,
+    .statement .statement-3 {
+      width: 365px;
+    }
+  
+    /* Estilos específicos para elementos com a classe .statement-1 */
+    .statement .statement-1 {
+      height: 400px;
+      position: relative;
+      top: 45px;
+    }
+  
+    /* Define a largura de elementos aninhados dentro de .statement-1 como 320px */
+    .statement .statement-1 .main-paragraph,
+    .statement .statement-1 .secundary-paragraph,
+    .statement .statement-3 .main-paragraph,
+    .statement .statement-3 .secundary-paragraph {
+      width: 320px;
+    }
+  
+    /* Estilos específicos para elementos com a classe .statement-3 */
+    .statement .statement-3 {
+      height: 230px;
+      position: relative;
+      bottom: 2880px;
+    }
+  
+    /* Estilos específicos para elementos com a classe .statement-2 */
+    .statement .statement-2 {
+      width: 365px;
+      height: 270px;
+      position: relative;
+      bottom: 1275px;
+    }
+  
+    /* Define a largura de elementos aninhados dentro de .statement-2 como 290px */
+    .statement .statement-2 .main-paragraph,
+    .statement .statement-2 .secundary-paragraph {
+      width: 290px;
+    }
+  
+    /* Define a largura de elementos com as classes .statement-4 e .statement-5 como 370px */
+    .statement .statement-4,
+    .statement .statement-5 {
+      width: 370px;
+    }
+  
+    /* Estilos específicos para elementos com a classe .statement-4 */
+    .statement .statement-4 {
+      height: 360px;
+      position: relative;
+      bottom: 3480px;
+    }
+  
+    /* Define a largura de elementos aninhados dentro de .statement-4 como 315px */
+    .statement .statement-4 .main-paragraph,
+    .statement .statement-4 .secundary-paragraph {
+      width: 315px;
+    }
+  
+    /* Estilos específicos para elementos com a classe .statement-5 */
+    .statement .statement-5 {
+      height: 450px;
+      position: relative;
+      bottom: 4895px;
+    }
+  
+    /* Define a largura de elementos aninhados dentro de .statement-5 como 310px */
+    .statement .statement-5 .main-paragraph,
+    .statement .statement-5 .secundary-paragraph {
+      width: 310px;
+    }
+  }
+  
+  /* Fim da regra de mídia */ 

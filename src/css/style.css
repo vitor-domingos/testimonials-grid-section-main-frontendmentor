@@ -1,0 +1,232 @@
+/* Define variáveis personalizadas usando :root */
+:root {
+  --border-radius: 10px; /* Define um raio de borda personalizado */
+  --font-size-main-paragraph: 18px; /* Define o tamanho da fonte para parágrafos principais */
+  --font-size-secundary-paragraph: 14px; /* Define o tamanho da fonte para parágrafos secundários */
+  --line-height-secundary-paragraph: 20px; /* Define a altura da linha para parágrafos secundários */
+}
+
+/* Estiliza a classe 'statement' como uma grade com 3 colunas e 2 linhas */
+.statement {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Cria 3 colunas iguais */
+  grid-template-rows: repeat(2, 1fr); /* Cria 2 linhas iguais */
+}
+
+/* Aplica borda arredondada a várias classes 'statement-x' */
+.statement .statement-1,
+.statement .statement-2,
+.statement .statement-3,
+.statement .statement-4,
+.statement .statement-5 {
+  border-radius: var(
+    --border-radius
+  ); /* Usa a variável de raio de borda personalizada */
+}
+
+/* Estiliza imagens dentro das classes 'statement-x' */
+.statement .statement-1 img,
+.statement .statement-2 img,
+.statement .statement-3 img,
+.statement .statement-4 img,
+.statement .statement-5 img {
+  transform: translate(30px, 20px);
+  /* Move a imagem horizontalmente e verticalmente */
+  width: 40px; /* Define a largura máxima da imagem */
+  border-radius: 20px; /* Adiciona um raio de borda à imagem */
+  max-width: 100%; /* Garante que a imagem não exceda a largura máxima */
+}
+
+/* Estiliza os elementos 'profile-name' e 'profile-graduate' em várias classes 'statement-x' */
+.statement .statement-1 .profile-name,
+.statement .statement-1 .profile-graduate,
+.statement .statement-2 .profile-name,
+.statement .statement-2 .profile-graduate,
+.statement .statement-3 .profile-name,
+.statement .statement-3 .profile-graduate,
+.statement .statement-4 .profile-name,
+.statement .statement-4 .profile-graduate,
+.statement .statement-5 .profile-name,
+.statement .statement-5 .profile-graduate {
+  transform: translateX(85px); /* Move os elementos horizontalmente */
+  position: relative; /* Define posicionamento relativo para elementos */
+  bottom: 18px; /* Move os elementos para baixo em relação à posição normal */
+}
+
+/* Reduz a opacidade dos elementos 'profile-graduate' em várias classes 'statement-x' */
+.statement .statement-1 .profile-graduate,
+.statement .statement-2 .profile-graduate,
+.statement .statement-3 .profile-graduate,
+.statement .statement-4 .profile-graduate,
+.statement .statement-5 .profile-graduate {
+  opacity: 50%; /* Define a opacidade como 50% (semi-transparente) */
+}
+
+/* Estiliza parágrafos principais em várias classes 'statement-x' */
+.statement .statement-1 .main-paragraph,
+.statement .statement-2 .main-paragraph,
+.statement .statement-3 .main-paragraph,
+.statement .statement-4 .main-paragraph,
+.statement .statement-5 .main-paragraph {
+  font-weight: 600; /* Define a espessura da fonte como negrito */
+  font-size: var(
+    --font-size-main-paragraph
+  ); /* Usa a variável de tamanho de fonte personalizada */
+  transform: translateX(30px); /* Move o texto horizontalmente */
+}
+
+/* Estiliza parágrafos secundários em várias classes 'statement-x' */
+.statement .statement-1 .secundary-paragraph,
+.statement .statement-2 .secundary-paragraph,
+.statement .statement-3 .secundary-paragraph,
+.statement .statement-4 .secundary-paragraph,
+.statement .statement-5 .secundary-paragraph {
+  font-size: var(
+    --font-size-secundary-paragraph
+  ); /* Usa a variável de tamanho de fonte personalizada */
+  transform: translate(
+    30px,
+    20px
+  ); /* Move o texto horizontal e verticalmente */
+  opacity: 70%; /* Define a opacidade como 70% */
+  line-height: var(
+    --line-height-secundary-paragraph
+  ); /* Define a altura da linha */
+}
+
+/* Estiliza a primeira classe 'statement-1' */
+.statement .statement-1 {
+  background-color: hsl(263, 55%, 52%); /* Define a cor de fundo */
+  width: 520px; /* Define a largura */
+  height: 315px; /* Define a altura */
+  transform: translate(
+    30px,
+    25px
+  ); /* Move o elemento horizontal e verticalmente */
+  position: relative; /* Define o posicionamento como relativo */
+  top: 20px; /* Move o elemento para cima em relação à posição normal */
+}
+
+/* Estiliza as imagens dentro da primeira classe 'statement-1' */
+.statement .statement-1 img {
+  border: 2px solid hsl(210, 46%, 95%); /* Define uma borda sólida */
+}
+
+/* Estiliza os elementos 'profile-name' e 'profile-graduate' dentro da primeira classe 'statement-1' */
+.statement .statement-1 .profile-name,
+.statement .statement-1 .profile-graduate {
+  color: hsl(210, 46%, 95%); /* Define a cor do texto */
+}
+
+/* Reduz a opacidade do elemento 'profile-graduate' dentro da primeira classe 'statement-1' */
+.statement .statement-1 .profile-graduate {
+  opacity: 50%; /* Define a opacidade como 50% (semi-transparente) */
+}
+
+/* Estiliza parágrafos principais e secundários dentro da primeira classe 'statement-1' */
+.statement .statement-1 .main-paragraph,
+.statement .statement-1 .secundary-paragraph {
+  color: hsl(210, 46%, 95%); /* Define a cor do texto */
+  width: 430px; /* Define a largura */
+}
+
+/* Estiliza a segunda classe 'statement-2' */
+.statement .statement-2 {
+  background-color: hsl(0, 0%, 81%); /* Define a cor de fundo */
+  width: 280px; /* Define a largura */
+  height: 270px; /* Define a altura */
+  transform: translateX(30px); /* Move o elemento horizontalmente */
+  position: relative; /* Define o posicionamento como relativo */
+  bottom: 245px; /* Move o elemento para baixo em relação à posição normal */
+}
+
+/* Estiliza os elementos dentro da segunda classe 'statement-2' */
+.statement .statement-2 .profile-name,
+.statement .statement-2 .profile-graduate,
+.statement .statement-2 .main-paragraph,
+.statement .statement-2 .secundary-paragraph {
+  color: hsl(219, 29%, 14%); /* Define a cor do texto */
+}
+
+/* Define a largura dos parágrafos principais e secundários dentro da segunda classe 'statement-2' */
+.statement .statement-2 .main-paragraph,
+.statement .statement-2 .secundary-paragraph {
+  width: 195px; /* Define a largura */
+}
+
+/* Estiliza a terceira classe 'statement-3' */
+.statement .statement-3 {
+  background-color: hsl(217, 19%, 35%); /* Define a cor de fundo */
+  width: 300px; /* Define a largura */
+  height: 318px; /* Define a altura */
+  transform: translateX(580px); /* Move o elemento horizontalmente */
+  position: relative; /* Define o posicionamento como relativo */
+  bottom: 1125px; /* Move o elemento para baixo em relação à posição normal */
+}
+
+/* Estiliza os elementos dentro da terceira classe 'statement-3' */
+.statement .statement-3 .profile-name,
+.statement .statement-3 .profile-graduate,
+.statement .statement-3 .main-paragraph,
+.statement .statement-3 .secundary-paragraph {
+  color: hsl(210, 46%, 95%); /* Define a cor do texto */
+}
+
+/* Define a largura dos parágrafos principais e secundários dentro da terceira classe 'statement-3' */
+.statement .statement-3 .main-paragraph,
+.statement .statement-3 .secundary-paragraph {
+  width: 245px; /* Define a largura */
+}
+
+/* Estiliza a quarta classe 'statement-4' */
+.statement .statement-4 {
+  background-color: hsl(219, 29%, 14%); /* Define a cor de fundo */
+  width: 540px; /* Define a largura */
+  height: 272px; /* Define a altura */
+  transform: translateX(340px); /* Move o elemento horizontalmente */
+  position: relative; /* Define o posicionamento como relativo */
+  bottom: 1420px; /* Move o elemento para baixo em relação à posição normal */
+}
+
+/* Estiliza as imagens dentro da quarta classe 'statement-4' */
+.statement .statement-4 img {
+  border: 2px solid hsl(263, 55%, 52%); /* Define uma borda sólida */
+}
+
+/* Estiliza os elementos dentro da quarta classe 'statement-4' */
+.statement .statement-4 .profile-name,
+.statement .statement-4 .profile-graduate,
+.statement .statement-4 .main-paragraph,
+.statement .statement-4 .secundary-paragraph {
+  color: hsl(0, 0%, 100%); /* Define a cor do texto */
+}
+
+/* Define a largura dos parágrafos principais e secundários dentro da quarta classe 'statement-4' */
+.statement .statement-4 .main-paragraph,
+.statement .statement-4 .secundary-paragraph {
+  width: 460px; /* Define a largura */
+}
+
+/* Estiliza a quinta classe 'statement-5' */
+.statement .statement-5 {
+  background-color: hsl(210, 46%, 95%); /* Define a cor de fundo */
+  width:  410px; /* Define a largura */
+   height: 615px; /* Define a altura */
+  transform: translateX(906px); /* Move o elemento horizontalmente */
+  position: relative; /* Define o posicionamento como relativo */
+  bottom: 2305px; /* Move o elemento para baixo em relação à posição normal */
+}
+
+/* Estiliza os elementos dentro da quinta classe 'statement-5' */
+.statement .statement-5 .profile-name,
+.statement .statement-5 .profile-graduate,
+.statement .statement-5 .main-paragraph,
+.statement .statement-5 .secundary-paragraph {
+  color: hsl(219, 29%, 14%); /* Define a cor do texto */
+}
+
+/* Define a largura dos parágrafos secundários dentro da quinta classe 'statement-5' */
+.statement .statement-5 .main-paragraph,
+.statement .statement-5 .secundary-paragraph {
+  width: 295px; /* Define a largura */
+}

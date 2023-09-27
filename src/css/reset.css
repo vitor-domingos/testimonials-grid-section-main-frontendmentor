@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 13px;
+  max-width: 1440px;
+  font-family:"Barlow Semi Condensed",sans-serif;
+}
+
+@media (max-width:425px){
+
+body {
+max-width: 375px;
+}
+}
