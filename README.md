@@ -12,7 +12,7 @@
 
 - **HTML5**
 - **CSS3**
-
+- **Grid**
 ## Como visualizar
 
 **1. Acesse o repositório do projeto no Github usando o seguinte link:**
