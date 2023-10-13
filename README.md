@@ -6,11 +6,11 @@
 
 ## Descrição do Projeto
 
-**Este é um projeto de layout contendo posts de declaração das pessoas, fornecido pela plataforma Front-end Mentor. O projeto tem como objetivo utilizar as tecnologias front-end HTML5 e CSS3, fazendo uso de grid para realizar o projeto em monitores (desktop) e celulares (mobile).**
+**Este é um projeto de layout contendo posts de declaração das pessoas, fornecido pela plataforma Front-end Mentor.**
 
 ## Sobre o Projeto
 
-**O projeto foi realizado com base no layout fornecido pela plataforma Front-end Mentor. O objetivo principal do projeto é usar as tecnologias front-end HTML5 e CSS3, com a utilização de grid, para criar um layout responsivo que funcione em monitores (desktop) e dispositivos móveis (mobile). O projeto foi concluído em 11 dias, tendo como base o layout do Front-end Mentor.**
+**O objetivo principal do projeto é usar as tecnologias front-end HTML5 e CSS3, com a utilização de grid, para criar um layout responsivo que funcione em monitores (desktop) e dispositivos móveis (mobile). O projeto foi concluído em 11 dias, tendo como base o layout do Front-end Mentor.**
 
 ## Desafios
 
