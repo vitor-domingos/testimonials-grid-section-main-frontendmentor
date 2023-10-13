@@ -66,11 +66,11 @@
 
 ## Project Description
 
-**This is a layout project containing people's declaration posts, provided by the Mentor front-end platform. The project aims to use HTML5 and CSS3 front-end technologies, making use of grid to realize the project on monitors (desktop) and mobiles (mobile).**
+**This is a layout project containing people's declaration posts, provided by the Mentor front-end platform.**
 
 ## About the project
 
-**The project was based on the layout provided by the Mentor front-end platform. The main objective of the project is to use HTML5 and CSS3 front-end technologies, with the use of grid, to create a responsive layout that works on monitors (desktop) and mobile devices (mobile). The project was completed in 11 days, based on the Mentor front-end layout.**
+**The main objective of the project is to use HTML5 and CSS3 front-end technologies, with the use of grid, to create a responsive layout that works on monitors (desktop) and mobile devices (mobile). The project was completed in 11 days, based on the Mentor front-end layout.**
 
 ## Challenges
 
